@@ -8,8 +8,8 @@ from spotipy.oauth2 import SpotifyOAuth
 date = input("Which day do you want to travel to? Type the date in this format YYYY-MM-DD: ")
 
 URL = f"https://www.billboard.com/charts/hot-100/{date}"
-CLIENT_ID = "4a5e9e70b0394ba191fd22a3cd277652"
-CLIENT_SECRET = "79506999732648dfbe27b6ec5da6a8af"
+CLIENT_ID = INSERT CLIENT ID FROM SPOTIFY WEBSITE
+CLIENT_SECRET = INSERT CLIENT SECRET FROM SPOTIFY WEBSITE
 REDIRECT_URI = 'https://example.com'
 
 response = requests.get(URL)
